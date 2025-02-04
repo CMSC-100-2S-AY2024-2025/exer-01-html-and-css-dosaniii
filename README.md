@@ -8,6 +8,10 @@ Degree Program: BS Computer Science
 Live Website Link: 
 
 ## Steps on how to create GitHub Page:
+1. Go to Settings and navigate to the Pages section.
+2. In the Build and Deployment section, find the Branch option. Select main as the source and set the branch to / (root). Click Save.
+3. Return to your repository's Code section (<> Code) and wait for the yellow status indicator to finish loading.
+4. Once the process is complete, go back to Settings, and your live website link should be available.
 
 
 
