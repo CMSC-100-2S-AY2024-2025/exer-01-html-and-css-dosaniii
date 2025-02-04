@@ -63,8 +63,8 @@ body {
 
 .pic {
   max-width: 100%;
-  height: auto; /* Keeps aspect ratio */
-  display: block; /* Prevents extra spacing */
+  height: auto; 
+  display: block; 
 }
 
 .image {
@@ -75,35 +75,35 @@ body {
   padding-right: 180px;
 }
 
-/* Feature Projects header style */
+
 .f-header {
   text-align: center;
   color: white;
   font-size: 2rem;
   margin-bottom: 20px;
   width: 100%;
-  padding: 20px 0; /* Add space above and below */
+  padding: 20px 0; 
 }
 
 /* Container section wrapper */
 .container-wrapper {
   display: flex;
-  justify-content: center; /* Center the nested containers horizontally */
+  justify-content: center; 
   align-items: center;
   width: 100%;
   padding: 20px;
-  flex-wrap: wrap; /* Allows the items to wrap if necessary */
+  flex-wrap: wrap;
 }
 
-/* Wrapper for each pair of containers */
+
 .pair-wrapper {
   display: flex;
-  gap: 10px; /* Space between containers */
-  justify-content: center; /* Center containers horizontally within the wrapper */
-  flex-direction: row; /* Align containers in a row */
+  gap: 10px; 
+  justify-content: center; 
+  flex-direction: row; 
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.2); /* Visual background for the pair-wrapper */
-  border: 2px solid white; /* Border around the container group */
+  background-color: rgba(0, 0, 0, 0.2); 
+  border: 2px solid white; 
   margin: 10px;
   border-radius: 15px;
   background-color: #1e232b;
@@ -124,8 +124,21 @@ body {
 }
 
 .container1 {
-  background-color: #068FFF; /* Color for container 3 and 4 */
+  background-color: #068FFF;
 }
+
+/* Define text-header styles */
+.text-header {
+  font-size: 2em;  /* Set the font size */
+  font-weight: bold;  /* Make it bold */
+  color: white;  /* Change text color (you can adjust the color) */
+  margin-top: 20px;  /* Add margin to the top */
+  display: flex;
+  justify-content: right;
+}
+
+
+
 
 
 /* Navigation styles */
