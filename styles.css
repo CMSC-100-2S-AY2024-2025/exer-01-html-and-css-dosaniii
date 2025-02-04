@@ -14,6 +14,11 @@ body {
   font-family: "Roboto Mono", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .logo {
   width: 150px;
   margin-top: 10px;
@@ -135,6 +140,7 @@ body {
   margin-left: auto; 
   margin-right: auto; 
   color:white;
+  margin-bottom: 5%;
 }
 
 .pair-wrapper {
@@ -161,44 +167,42 @@ body {
   margin: 10px;
   border-radius: 15px;
   background-color: #1e232b;
-  max-width: 80%; /* Adjusts the max width of the container */
-  margin-left: auto; /* Centers the container horizontally */
-  margin-right: auto; /* Centers the container horizontally */
+  max-width: 80%; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .container, .container1 {
   display: flex;
-  flex-direction: column; /* Stack image and text */
-  align-items: center; /* Center content */
+  flex-direction: column; 
+  align-items: center; 
   justify-content: center;
-  border-radius: 15px; /* Rounded corners */
-  overflow: hidden; /* Ensures images fit inside */
+  border-radius: 15px;
+  overflow: hidden; 
   padding: 10px;
 }
 
 .profile {
-  max-width: 100%; /* Ensures image fits inside the container */
+  max-width: 100%; 
   height: auto;
-  border-radius: 10px; /* Optional: round the image */
+  border-radius: 10px; 
 }
 
 .pic {
-  max-width: 100%; /* Ensures image fits inside the container */
+  max-width: 100%; 
   height: auto;
-  border-radius: 10px; /* Optional: round the image */
-  max-height: 150px; /* Adjust this to control image size */
+  border-radius: 10px; 
+  max-height: 150px; 
   width: 150%;
 }
 
 .pic1{
-  max-width: 100%; /* Ensures image fits inside the container */
+  max-width: 100%; 
   height: auto;
-  border-radius: 70px; /* Optional: round the image */
-  max-height: 150px; /* Adjust this to control image size */
+  border-radius: 70px; 
+  max-height: 150px; 
   width: 50%;
 }
-
-
 
 .container1 {
   background-color: #068FFF;

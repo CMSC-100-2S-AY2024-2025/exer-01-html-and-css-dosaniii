@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>III</title>
     <link rel="stylesheet" href="./styles.css" />
+    <style>
+      /* Optional: Add smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
     <!-- Hero Section -->
@@ -12,10 +18,10 @@
       <nav>
         <img src="images/logo.png" class="logo" alt="Logo" />
         <ul>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">About Me</a></li>
+          <li><a href="#profile">Profile</a></li> <!-- Updated link -->
+          <li><a href="#projects">Projects</a></li> <!-- Updated link -->
+          <li><a href="#skills">Skills</a></li> <!-- Updated link -->
+          <li><a href="#about-me">About Me</a></li> <!-- Updated link -->
         </ul>
       </nav>
       <div class="row">
@@ -34,7 +40,7 @@
     </div>
     
     <!-- Feature Projects Section -->
-    <div class="container-wrapper">
+    <div id="projects" class="container-wrapper">
       <h1 class="f-header">Feature Projects</h1>
       
       <!-- Wrapper for container 1 and 2 -->
@@ -58,30 +64,35 @@
       </div>
     </div>
 
-    <h1 class="skills">Skills</h1>
-    <div class="pair-wrapper1">
-      <div class="container">
-        <img src="images/C.png" class="pic1" alt="Project 1"/>
-      </div>
-      <div class="container">
-        <img src="images/R.png" class="pic1" alt="Project 2"/>
-      </div>
-      <div class="container">
-        <img src="images/P.png" class="pic1" alt="Project 2"/>
-      </div>
-      <div class="container">
-        <img src="images/H.png" class="pic1" alt="Project 2"/>
-      </div>
-      <div class="container">
-        <img src="images/J.png" class="pic1" alt="Project 2"/>
+    <div id="skills">
+      <h1 class="skills">Skills</h1>
+      <div class="pair-wrapper1">
+        <div class="container">
+          <img src="images/C.png" class="pic1" alt="C Programming"/>
+        </div>
+        <div class="container">
+          <img src="images/R.png" class="pic1" alt="Ruby"/>
+        </div>
+        <div class="container">
+          <img src="images/P.png" class="pic1" alt="Python"/>
+        </div>
+        <div class="container">
+          <img src="images/H.png" class="pic1" alt="HTML"/>
+        </div>
+        <div class="container">
+          <img src="images/J.png" class="pic1" alt="Java"/>
+        </div>
       </div>
     </div>
-
-    <h1 class="autobiography">Autobiography</h1>
-    <div class="auto">
-      <h4 class="biog">My name is Edgar Alan Emmanuel B. Tiamzon III, an aspiring Software Engineer currently pursuing a BS in Computer Science (BSCS) at the University of the Philippines Los Baños (UPLB), from Batch 2023. 
-        One of my hobbies is programming, and in addition to that, I also enjoy solving the Rubik's Cube in a matter of seconds. 
-        Whenever I want to take a break from writing code, I exercise — whether it's going to the gym, jogging, or engaging in other fitness activities that help clear my mind for solving problems.</h4>
+    
+    <!-- About Me Section -->
+    <div id="about-me">
+      <h1 class="autobiography">Autobiography</h1>
+      <div class="auto">
+        <h4 class="biog">My name is Edgar Alan Emmanuel B. Tiamzon III, an aspiring Software Engineer currently pursuing a BS in Computer Science (BSCS) at the University of the Philippines Los Baños (UPLB), from Batch 2023. 
+          One of my hobbies is programming, and in addition to that, I also enjoy solving the Rubik's Cube in a matter of seconds. 
+          Whenever I want to take a break from writing code, I exercise — whether it's going to the gym, jogging, or engaging in other fitness activities that help clear my mind for solving problems.</h4>
+      </div>
     </div>
 
     <!-- Footer Section -->
@@ -89,9 +100,9 @@
       <div class="footer-content">
         <p>&copy; 2025 Edgar Alan Emmanuel B. Tiamzon III. All Rights Reserved.</p>
         <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Marikina City</a></li>
+          <li><a href="#">tiamzonemmanuel1@gmail.com</a></li>
+          <li><a href="#">Back to Top</a></li>
         </ul>
       </div>
     </footer>
