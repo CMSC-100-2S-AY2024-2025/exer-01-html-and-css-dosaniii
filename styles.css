@@ -34,6 +34,12 @@ body {
   margin-left: 50px;
 }
 
+.biog {
+  font-weight: 300;
+}
+
+
+
 .eng{
   color: #068FFF;
   font-weight: 1000;
@@ -85,6 +91,25 @@ body {
   padding: 20px 0; 
 }
 
+.skills{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px 0; 
+}
+
+.autobiography{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px 0; 
+}
+
+
 /* Container section wrapper */
 .container-wrapper {
   display: flex;
@@ -95,6 +120,22 @@ body {
   flex-wrap: wrap;
 }
 
+.auto{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #1e232b;
+  max-width: 80%;
+  margin-left: auto; 
+  margin-right: auto; 
+  color:white;
+}
 
 .pair-wrapper {
   display: flex;
@@ -109,36 +150,91 @@ body {
   background-color: #1e232b;
 }
 
-/* Container styles */
-.container, .container1 {
-  width: 250px;
-  height: 250px;
-  background-color: #068FFF;
-  border: 2px solid white;
-  color: white;
-  text-align: center;
+.pair-wrapper1 {
   display: flex;
-  align-items: center;
+  gap: 10px;
   justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  margin: 10px;
   border-radius: 15px;
+  background-color: #1e232b;
+  max-width: 80%; /* Adjusts the max width of the container */
+  margin-left: auto; /* Centers the container horizontally */
+  margin-right: auto; /* Centers the container horizontally */
 }
+
+.container, .container1 {
+  display: flex;
+  flex-direction: column; /* Stack image and text */
+  align-items: center; /* Center content */
+  justify-content: center;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Ensures images fit inside */
+  padding: 10px;
+}
+
+.profile {
+  max-width: 100%; /* Ensures image fits inside the container */
+  height: auto;
+  border-radius: 10px; /* Optional: round the image */
+}
+
+.pic {
+  max-width: 100%; /* Ensures image fits inside the container */
+  height: auto;
+  border-radius: 10px; /* Optional: round the image */
+  max-height: 150px; /* Adjust this to control image size */
+  width: 150%;
+}
+
+.pic1{
+  max-width: 100%; /* Ensures image fits inside the container */
+  height: auto;
+  border-radius: 70px; /* Optional: round the image */
+  max-height: 150px; /* Adjust this to control image size */
+  width: 50%;
+}
+
+
 
 .container1 {
   background-color: #068FFF;
 }
 
-/* Define text-header styles */
-.text-header {
-  font-size: 2em;  /* Set the font size */
-  font-weight: bold;  /* Make it bold */
-  color: white;  /* Change text color (you can adjust the color) */
-  margin-top: 20px;  /* Add margin to the top */
-  display: flex;
-  justify-content: right;
+
+footer {
+  background-color: #1e232b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
+footer .footer-content p {
+  margin: 0;
+}
 
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
 
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
 
 
 /* Navigation styles */
