@@ -5,7 +5,7 @@ Name: Edgar Alan Emmanuel B. Tiamzon III <br>
 Degree Program: BS Computer Science
 
 ## Live Website Link
-Live Website Link: 
+Live Website Link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-dosaniii/
 
 ## Steps on how to create GitHub Page:
 1. Go to Settings and navigate to the Pages section.
