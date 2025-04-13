@@ -1,8 +1,9 @@
-/*Google Font*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-html, body {
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+html,
+body {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -10,7 +11,6 @@ html, body {
 
 body {
   background-color: black;
-  margin: 0;
   font-family: "Roboto Mono", serif;
 }
 
@@ -18,21 +18,20 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .logo {
   width: 150px;
   margin-top: 10px;
   margin-left: 10px;
 }
 
-.col h3{
+.col h3 {
   display: flex;
   text-align: left;
   justify-content: left;
   margin-left: 50px;
 }
 
-.col h1{
+.col h1 {
   margin: 0;
   padding: 0;
   text-align: left;
@@ -43,17 +42,15 @@ html {
   font-weight: 300;
 }
 
-
-
-.eng{
-  color: #068FFF;
+.eng {
+  color: #068fff;
   font-weight: 1000;
 }
 
 .hero {
   width: 100%;
   height: 95vh;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -72,60 +69,55 @@ html {
   color: #fff;
 }
 
-.pic {
+/* Image styling */
+.pic,
+.ss {
+  width: 100%;
+  max-width: 270px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pic1 {
   max-width: 100%;
-  height: auto; 
-  display: block; 
+  height: auto;
+  border-radius: 70px;
+  max-height: 150px;
+  width: 50%;
 }
 
 .image {
-  width: 50%; 
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding-right: 180px;
 }
 
-
-.f-header {
+/* Section Headers */
+.f-header,
+.skills,
+.autobiography {
   text-align: center;
   color: white;
   font-size: 2rem;
   margin-bottom: 20px;
   width: 100%;
-  padding: 20px 0; 
+  padding: 20px 0;
 }
-
-.skills{
-  text-align: center;
-  color: white;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 20px 0; 
-}
-
-.autobiography{
-  text-align: center;
-  color: white;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 20px 0; 
-}
-
 
 /* Container section wrapper */
 .container-wrapper {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 20px;
   flex-wrap: wrap;
 }
 
-.auto{
+.auto {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -133,27 +125,52 @@ html {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.2);
   border: 2px solid white;
-  margin: 10px;
+  margin: 10px auto 5%;
   border-radius: 15px;
   background-color: #1e232b;
   max-width: 80%;
-  margin-left: auto; 
-  margin-right: auto; 
-  color:white;
-  margin-bottom: 5%;
+  color: white;
 }
 
+/* Updated container for project blocks */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  max-width: 300px;
+}
+
+.app-name {
+  color: #068fff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+.app-desc {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Pair wrapper (2 containers side by side) */
 .pair-wrapper {
   display: flex;
-  gap: 10px; 
-  justify-content: center; 
-  flex-direction: row; 
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.2); 
-  border: 2px solid white; 
-  margin: 10px;
-  border-radius: 15px;
   background-color: #1e232b;
+  border: 2px solid white;
+  border-radius: 15px;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .pair-wrapper1 {
@@ -162,58 +179,38 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 2px solid white;
-  margin: 10px;
-  border-radius: 15px;
   background-color: #1e232b;
-  max-width: 80%; 
-  margin-left: auto; 
-  margin-right: auto; 
+  border: 2px solid white;
+  margin: 10px auto;
+  border-radius: 15px;
+  max-width: 100%;
 }
 
-.container, .container1 {
+/* Container for profile */
+.container1 {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   border-radius: 15px;
-  overflow: hidden; 
+  overflow: hidden;
   padding: 10px;
 }
 
 .profile {
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
-.pic {
-  max-width: 100%; 
-  height: auto;
-  border-radius: 10px; 
-  max-height: 150px; 
-  width: 150%;
-}
-
-.pic1{
-  max-width: 100%; 
-  height: auto;
-  border-radius: 70px; 
-  max-height: 150px; 
-  width: 50%;
-}
-
-.container1 {
-  background-color: #068FFF;
-}
-
-
+/* Footer styles */
 footer {
   background-color: #1e232b;
   color: white;
   padding: 20px 0;
   text-align: center;
+  width: 100%;
+  margin-top: auto;
 }
 
 footer .footer-content p {
@@ -223,6 +220,7 @@ footer .footer-content p {
 footer ul {
   list-style-type: none;
   padding: 0;
+  margin: 10px 0 0;
 }
 
 footer ul li {
@@ -239,7 +237,6 @@ footer ul li a {
 footer ul li a:hover {
   text-decoration: underline;
 }
-
 
 /* Navigation styles */
 nav {
@@ -275,7 +272,7 @@ nav ul li a::before {
   content: "";
   width: 100%;
   height: 0px;
-  background:#068FFF;
+  background: #068fff;
   position: absolute;
   z-index: -1;
   left: 0;
